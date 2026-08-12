@@ -4,13 +4,13 @@
 <!--                    ANIMATED BANNER                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0D1117&text=Rahul%20Kata&fontColor=00D4FF&fontSize=55&animation=fadeIn&fontAlignY=55&desc=Java%20Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20AI%20Integration&descAlignY=75&descColor=00FF94&descSize=17&height=175" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=FFFFFF&text=Rahul%20Kata&fontColor=89B4FA&fontSize=55&animation=fadeIn&fontAlignY=55&desc=Java%20Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20AI%20Integration&descAlignY=75&descColor=89B4FA&descSize=17&height=175" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                     TYPING SVG                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=620&lines=%24+whoami+%E2%86%92+Java+Backend+Developer;%24+stack+%E2%86%92+Java+%7C+Spring+Boot+%7C+Kafka+%7C+Redis;%24+building+%E2%86%92+Secure+REST+APIs+%2B+AI+Applications;%24+focus+%E2%86%92+Microservices+%7C+Spring+AI+%7C+RAG;%24+open_to+%E2%86%92+Java+Backend+%2F+Software+Engineering+Roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=900&color=89B4FA&center=true&vCenter=true&width=620&lines=%24+whoami+%E2%86%92+Java+Backend+Developer;%24+stack+%E2%86%92+Java+%7C+Spring+Boot+%7C+Kafka+%7C+Redis;%24+building+%E2%86%92+Secure+REST+APIs+%2B+AI+Applications;%24+focus+%E2%86%92+Microservices+%7C+Spring+AI+%7C+RAG;%24+open_to+%E2%86%92+Java+Backend+%2F+Software+Engineering+Roles)](https://git.io/typing-svg)
 
 <br/>
 
@@ -18,12 +18,12 @@
 <!--                   CONTACT BUTTONS                         -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-[![GitHub](https://img.shields.io/badge/GitHub-Kata--rahul15-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/Kata-rahul15)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kata--rahul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/kata-rahul)
-[![LeetCode](https://img.shields.io/badge/LeetCode-kata--rahul-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0D1117)](https://leetcode.com/u/kata-rahul/)
-[![Gmail](https://img.shields.io/badge/Email-katarahul8@gmail.com-00FF94?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:katarahul8@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Kata--rahul15-89B4FA?style=for-the-badge&logo=github&logoColor=89B4FA&labelColor=FFFFFF)](https://github.com/Kata-rahul15)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kata--rahul-89B4FA?style=for-the-badge&logo=linkedin&logoColor=89B4FA&labelColor=FFFFFF)](https://www.linkedin.com/in/kata-rahul)
+[![LeetCode](https://img.shields.io/badge/LeetCode-kata--rahul-89B4FA?style=for-the-badge&logo=leetcode&logoColor=89B4FA&labelColor=FFFFFF)](https://leetcode.com/u/kata-rahul/)
+[![Gmail](https://img.shields.io/badge/Email-katarahul8@gmail.com-89B4FA?style=for-the-badge&logo=gmail&logoColor=89B4FA&labelColor=FFFFFF)](mailto:katarahul8@gmail.com)
 
-<img src="https://komarev.com/ghpvc/?username=Kata-rahul15&label=Profile+Views&color=00D4FF&style=flat-square" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=Kata-rahul15&label=Profile+Views&color=89B4FA&style=flat-square" alt="profile views" />
 
 </div>
 
