@@ -4,8 +4,7 @@
 <!--                    ANIMATED BANNER                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0D1117&text=Rahul%20Kata&fontColor=00D4FF&fontSize=55&animation=fadeIn&fontAlignY=55&desc=Java%20Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20AI%20Integration&descAlignY=75&descColor=00FF94&descSize=17&height=175" />
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=F8FAFC&text=Rahul%20Kata&fontColor=0F172A&fontSize=55&animation=fadeIn&fontAlignY=55&desc=Java%20Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20AI%20Integration&descAlignY=75&descColor=2563EB&descSize=17&height=175" />
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                     TYPING SVG                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
