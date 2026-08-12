@@ -1,51 +1,29 @@
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--  HERO — clean light portfolio style                                   -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-<br/>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    ANIMATED BANNER                        -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
-<!-- Name via readme-typing-svg — large, clean, Inter-style font -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=52&duration=1&pause=999999&color=111827&center=true&vCenter=true&repeat=false&width=520&height=72&lines=Rahul+Kata" alt="Rahul Kata" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0D1117&text=Rahul%20Kata&fontColor=00D4FF&fontSize=55&animation=fadeIn&fontAlignY=55&desc=Java%20Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20AI%20Integration&descAlignY=75&descColor=00FF94&descSize=17&height=175" />
 
-<!-- Accent underline rule -->
-<img src="https://img.shields.io/badge/%E2%80%8B-%E2%80%8B-6366F1?style=flat-square&labelColor=6366F1&color=6366F1" height="3" width="160" alt="" />
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                     TYPING SVG                            -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
-<br/><br/>
-
-<!-- Role -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=1&pause=999999&color=111827&center=true&vCenter=true&repeat=false&width=480&height=32&lines=Java+Backend+Developer" alt="Java Backend Developer" />
-
-<!-- Tech line -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&duration=1&pause=999999&color=64748B&center=true&vCenter=true&repeat=false&width=520&height=26&lines=Spring+Boot+%E2%80%A2+Microservices+%E2%80%A2+AI+Integration" alt="Spring Boot • Microservices • AI Integration" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=620&lines=%24+whoami+%E2%86%92+Java+Backend+Developer;%24+stack+%E2%86%92+Java+%7C+Spring+Boot+%7C+Kafka+%7C+Redis;%24+building+%E2%86%92+Secure+REST+APIs+%2B+AI+Applications;%24+focus+%E2%86%92+Microservices+%7C+Spring+AI+%7C+RAG;%24+open_to+%E2%86%92+Java+Backend+%2F+Software+Engineering+Roles)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- Tagline -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=14&duration=1&pause=999999&color=64748B&center=true&vCenter=true&repeat=false&width=520&height=24&lines=Building+secure%2C+scalable+and+intelligent+backend+systems." alt="Building secure, scalable and intelligent backend systems." />
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                   CONTACT BUTTONS                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
-<br/><br/>
+[![GitHub](https://img.shields.io/badge/GitHub-Kata--rahul15-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/Kata-rahul15)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kata--rahul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/kata-rahul)
+[![LeetCode](https://img.shields.io/badge/LeetCode-kata--rahul-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0D1117)](https://leetcode.com/u/kata-rahul/)
+[![Gmail](https://img.shields.io/badge/Email-katarahul8@gmail.com-00FF94?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:katarahul8@gmail.com)
 
-<!-- Social link cards — minimal flat badge style on light background -->
-<a href="https://github.com/Kata-rahul15">
-  <img src="https://img.shields.io/badge/%20%20GitHub-%40Kata--rahul15-111827?style=flat&logo=github&logoColor=white&labelColor=111827&color=F8FAFC" height="32" alt="GitHub" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/kata-rahul">
-  <img src="https://img.shields.io/badge/%20%20LinkedIn-%2Fin%2Fkata--rahul-2563EB?style=flat&logo=linkedin&logoColor=white&labelColor=2563EB&color=F8FAFC" height="32" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:katarahul8@gmail.com">
-  <img src="https://img.shields.io/badge/%20%20Email-katarahul8%40gmail.com-6366F1?style=flat&logo=gmail&logoColor=white&labelColor=6366F1&color=F8FAFC" height="32" alt="Email" />
-</a>
-
-<br/><br/>
-
-<!-- Profile views — subtle -->
-<img src="https://komarev.com/ghpvc/?username=Kata-rahul15&label=Profile+Views&color=6366F1&style=flat-square" alt="profile views" />
-
-<br/>
+<img src="https://komarev.com/ghpvc/?username=Kata-rahul15&label=Profile+Views&color=00D4FF&style=flat-square" alt="profile views" />
 
 </div>
 
