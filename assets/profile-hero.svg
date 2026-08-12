@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap');
+      
+      .font-mono { font-family: 'Fira Code', 'Courier New', Courier, monospace; }
+      .title-name { font-size: 40px; font-weight: 700; fill: #39FF88; letter-spacing: -0.5px; }
+      .role-title { font-size: 18px; font-weight: 600; fill: #8AFFB5; letter-spacing: 1px; }
+      .tech-line { font-size: 13px; font-weight: 500; fill: #6F8F7A; }
+      .section-label { font-size: 14px; font-weight: 600; fill: #39FF88; }
+      .text-body { font-size: 13px; font-weight: 400; fill: #8AFFB5; }
+      .text-muted { font-size: 12px; font-weight: 400; fill: #52735E; }
+      .header-text { font-size: 12px; font-weight: 500; fill: #6F8F7A; }
+      
+      .btn-text { font-size: 13px; font-weight: 600; fill: #39FF88; transition: all 0.2s ease; }
+      .btn-bg { fill: #0B1D12; stroke: #19C968; stroke-width: 1.5; rx: 6px; transition: all 0.2s ease; }
+      .btn-group:hover .btn-bg { fill: #163D25; stroke: #39FF88; cursor: pointer; }
+      .btn-group:hover .btn-text { fill: #FFFFFF; cursor: pointer; }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor { animation: blink 1s infinite; fill: #39FF88; }
+    </style>
+
+    <!-- Background Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0D2416" stroke-width="1" opacity="0.6"/>
+    </pattern>
+
+    <!-- Subtle Glow Filter -->
+    <filter id="green-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Main Background Container -->
+  <rect width="1000" height="460" rx="16" fill="#050805" stroke="#163D25" stroke-width="2"/>
+  
+  <!-- Subtle Grid Fill -->
+  <rect width="1000" height="460" rx="16" fill="url(#grid)"/>
+
+  <!-- Inner Card Frame -->
+  <rect x="20" y="20" width="960" height="420" rx="12" fill="#09140C" stroke="#1C4A2E" stroke-width="1.5"/>
+
+  <!-- Terminal Window Top Header Bar -->
+  <path d="M 20 32 C 20 25.37 25.37 20 32 20 L 968 20 C 974.63 20 980 25.37 980 32 L 980 55 L 20 55 Z" fill="#0C1D12" stroke="#1C4A2E" stroke-width="1"/>
+  
+  <!-- Window Buttons -->
+  <circle cx="42" cy="37" r="5.5" fill="#FF5F56" opacity="0.8"/>
+  <circle cx="58" cy="37" r="5.5" fill="#FFBD2E" opacity="0.8"/>
+  <circle cx="74" cy="37" r="5.5" fill="#27C93F" opacity="0.8"/>
+
+  <!-- Terminal Title Label -->
+  <text x="100" y="41" class="font-mono header-text">rahul@backend-system:~/profile (zsh)</text>
+  
+  <!-- Online Status Indicator -->
+  <circle cx="915" cy="37" r="4" fill="#39FF88" filter="url(#green-glow)"/>
+  <text x="926" y="41" class="font-mono" font-size="11" fill="#39FF88" font-weight="600">ONLINE</text>
+
+  <!-- LEFT COLUMN: Main Profile Info -->
+  <g transform="translate(45, 90)">
+    
+    <!-- > hello, world line -->
+    <text x="0" y="0" class="font-mono text-muted">&gt; hello_world.sh</text>
+
+    <!-- Name Heading -->
+    <text x="0" y="42" class="font-mono title-name">RAHUL KATA<tspan class="cursor">_</tspan></text>
+
+    <!-- Subtitle / Role -->
+    <text x="0" y="70" class="font-mono role-title">JAVA BACKEND DEVELOPER</text>
+    <text x="0" y="90" class="font-mono tech-line">SPRING BOOT  |  MICROSERVICES  |  AI INTEGRATION</text>
+
+    <!-- Divider -->
+    <line x1="0" y1="110" x2="570" y2="110" stroke="#163D25" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- Terminal Section 1: > stack -->
+    <g transform="translate(0, 132)">
+      <text x="0" y="0" class="font-mono section-label">&gt; stack_</text>
+      <text x="18" y="20" class="font-mono text-body">Java • Spring Boot • Spring Security • REST APIs</text>
+      <text x="18" y="38" class="font-mono text-body">Apache Kafka • Redis • MySQL • PostgreSQL</text>
+    </g>
+
+    <!-- Terminal Section 2: > open_to -->
+    <g transform="translate(0, 202)">
+      <text x="0" y="0" class="font-mono section-label">&gt; open_to_</text>
+      <text x="18" y="20" class="font-mono text-body">Java Backend Developer • Spring Boot Developer • Software Engineer</text>
+    </g>
+
+    <!-- Terminal Section 3: > currently -->
+    <g transform="translate(0, 254)">
+      <text x="0" y="0" class="font-mono section-label">&gt; currently_</text>
+      
+      <!-- Building Tag Badge -->
+      <rect x="18" y="7" width="92" height="18" rx="4" fill="#163D25" stroke="#39FF88" stroke-width="1"/>
+      <text x="26" y="20" class="font-mono" font-size="10" font-weight="700" fill="#39FF88">● BUILDING</text>
+
+      <text x="120" y="20" class="font-mono text-body">AI-powered RAG &amp; Job Matching System</text>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: Abstract Developer Architecture Terminal Box -->
+  <g transform="translate(645, 75)">
+    <!-- Box Container -->
+    <rect x="0" y="0" width="310" height="280" rx="8" fill="#040A06" stroke="#1C4A2E" stroke-width="1.5"/>
+    
+    <!-- Box Top Bar -->
+    <path d="M 0 8 C 0 3.58 3.58 0 8 0 L 302 0 C 306.42 0 310 3.58 310 8 L 310 28 L 0 28 Z" fill="#0B1A0F" stroke="#1C4A2E" stroke-width="1"/>
+    <text x="14" y="18" class="font-mono" font-size="11" fill="#6F8F7A" font-weight="600">&gt; backend_architecture.log</text>
+
+    <!-- Graphic Content / Terminal Output -->
+    <g transform="translate(15, 45)" class="font-mono" font-size="11">
+      <text x="0" y="0" fill="#39FF88" font-weight="600">[SYSTEM ARCHITECTURE]</text>
+      
+      <text x="0" y="22" fill="#52735E">┌── API GATEWAY / SECURITY ──┐</text>
+      <text x="0" y="38" fill="#8AFFB5">│  OAuth2 / JWT Filter Chain │</text>
+      <text x="0" y="54" fill="#52735E">└──────────────┬─────────────┘</text>
+      <text x="0" y="68" fill="#39FF88">               │ REST / gRPC</text>
+      <text x="0" y="84" fill="#52735E">┌──────────────▼─────────────┐</text>
+      <text x="0" y="100" fill="#8AFFB5">│   SPRING BOOT SERVICES     │</text>
+      <text x="0" y="116" fill="#52735E">└────┬─────────┬─────────┬───┘</text>
+      <text x="0" y="130" fill="#39FF88">     │         │         │</text>
+      <text x="0" y="146" fill="#52735E">  ┌──▼──┐   ┌──▼──┐   ┌──▼──┐</text>
+      <text x="0" y="162" fill="#8AFFB5">  │MySQL│   │Redis│   │Kafka│</text>
+      <text x="0" y="178" fill="#52735E">  └─────┘   └─────┘   └─────┘</text>
+
+      <line x1="0" y1="195" x2="280" y2="195" stroke="#163D25" stroke-width="1"/>
+      
+      <text x="0" y="213" fill="#39FF88" font-weight="600">&gt; status: <tspan fill="#8AFFB5">ALL SYSTEMS NOMINAL</tspan></text>
+      <text x="0" y="228" fill="#52735E">&gt; latency: <tspan fill="#39FF88">&lt; 15ms</tspan> | persistence: <tspan fill="#39FF88">ACID</tspan></text>
+    </g>
+  </g>
+
+  <!-- BOTTOM SECTION: Clickable Terminal Buttons -->
+  <g transform="translate(45, 385)">
+    <!-- GitHub Button -->
+    <a href="https://github.com/Kata-rahul15" target="_blank" class="btn-group">
+      <g>
+        <rect x="0" y="0" width="140" height="38" class="btn-bg"/>
+        <!-- GitHub Icon -->
+        <path d="M 22 19 C 22 14.58 24.87 10.84 28.84 9.52 C 29.34 9.43 29.52 9.74 29.52 10 C 29.52 10.24 29.51 10.88 29.51 11.73 C 26.73 11.13 26.14 13.07 26.14 13.07 C 25.68 14.23 25.02 14.54 25.02 14.54 C 24.11 13.92 25.09 13.93 25.09 13.93 C 26.1 14 26.63 14.97 26.63 14.97 C 27.52 16.5 28.97 16.06 29.54 15.8 C 29.63 15.15 29.89 14.71 30.18 14.46 C 27.96 14.21 25.63 13.35 25.63 9.53 C 25.63 8.44 26.02 7.55 26.66 6.85 C 26.56 6.6 26.22 5.58 26.76 4.2 C 26.76 4.2 27.6 3.93 29.5 5.22 C 30.3 5 31.15 4.89 32 4.89 C 32.85 4.89 33.7 5 34.5 5.22 C 36.4 3.93 37.24 4.2 37.24 4.2 C 37.78 5.58 37.44 6.6 37.34 6.85 C 37.98 7.55 38.37 8.44 38.37 9.53 C 38.37 13.36 36.03 14.2 33.8 14.45 C 34.16 14.76 34.48 15.38 34.48 16.33 C 34.48 17.69 34.47 18.79 34.47 19.12 C 34.47 19.39 34.65 19.7 35.16 19.6 C 39.13 18.28 42 14.54 42 10.12 C 42 4.53 37.52 0 32 0 C 26.48 0 22 4.53 22 10.12 Z" fill="#39FF88" transform="translate(-5, 9) scale(0.7)"/>
+        <text x="45" y="24" class="font-mono btn-text">GitHub</text>
+      </g>
+    </a>
+
+    <!-- LinkedIn Button -->
+    <a href="https://www.linkedin.com/in/kata-rahul" target="_blank" class="btn-group">
+      <g transform="translate(160, 0)">
+        <rect x="0" y="0" width="145" height="38" class="btn-bg"/>
+        <!-- LinkedIn Icon -->
+        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill="#39FF88" transform="translate(14, 11) scale(0.6)"/>
+        <text x="45" y="24" class="font-mono btn-text">LinkedIn</text>
+      </g>
+    </a>
+
+    <!-- Email Button -->
+    <a href="mailto:katarahul8@gmail.com" target="_blank" class="btn-group">
+      <g transform="translate(325, 0)">
+        <rect x="0" y="0" width="135" height="38" class="btn-bg"/>
+        <!-- Email Icon -->
+        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#39FF88" transform="translate(14, 10) scale(0.7)"/>
+        <text x="45" y="24" class="font-mono btn-text">Email</text>
+      </g>
+    </a>
+
+    <!-- Status Note on Right of Buttons -->
+    <text x="730" y="24" class="font-mono text-muted" font-size="11">&gt; status: OPEN_TO_ROLES</text>
+  </g>
+</svg>
