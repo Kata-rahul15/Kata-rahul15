@@ -168,6 +168,7 @@ OPEN_TO     = Java Backend / Spring Boot / Distributed Systems / Software Engine
 `Java 17` `Spring Boot 3` `Spring Cloud Gateway` `Spring AI 2.0` `Spring Security 6` `PostgreSQL (Supabase)` `pgvector` `Redis` `Apache Tika` `Google Gemini` `SerpAPI` `React 18` `TypeScript` `Vite`
 
 ### Repositories & Resources
+- 🌐 **Live Application:** [talent-prep-frontend.vercel.app](https://talent-prep-frontend.vercel.app/)
 - 🔗 **Backend Monorepo:** [TalentPrep-Microservices](https://github.com/Kata-rahul15/TalentPrep-Microservices) — API Gateway, Authentication-Service, Resume-RAG-Service
 - 🔗 **Frontend Repository:** [TalentPrep-Frontend](https://github.com/Kata-rahul15/TalentPrep-Frontend) — React 18, TypeScript, Tailwind CSS client
 - 🔗 **Event-Driven Repository:** [TalentPrep-Backend](https://github.com/Kata-rahul15/TalentPrep-Backend) — Kafka event-driven auth & email service modules
@@ -294,10 +295,11 @@ OPEN_TO     = Java Backend / Spring Boot / Distributed Systems / Software Engine
 `Java` `Spring Boot 3.2.3` `Spring Security` `Spring Data JPA` `JWT` `MySQL` `Python` `FastAPI` `Hugging Face` `React`
 
 ### Repositories & Resources
+- 🌐 **Live Application:** [fake-news-frontend-ebon.vercel.app](https://fake-news-frontend-ebon.vercel.app/)
 - 🔗 **Backend Repository:** [fake-news-backend](https://github.com/Kata-rahul15/fake-news-backend)
 - 🔗 **ML Microservice:** [fake-news-fastapi-ml](https://github.com/Kata-rahul15/fake-news-fastapi-ml) &nbsp;([Hugging Face Space](https://huggingface.co/spaces/FakeNewsDetection/fake-news-fastapi-ml))
 - 🔗 **Frontend Repository:** [fake-news-frontend](https://github.com/Kata-rahul15/fake-news-frontend)
-- 📌 **Status:** Implemented & Hosted on Hugging Face
+- 📌 **Status:** Implemented & Deployed (Vercel + Hugging Face)
 
 </details>
 
